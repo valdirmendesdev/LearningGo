@@ -1,3 +1,5 @@
+//Source: https://dev.to/tutorial_livre/golang-desmistificando-channels-2pkk
+
 package main
 
 import (
