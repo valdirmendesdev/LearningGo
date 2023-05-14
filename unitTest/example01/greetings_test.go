@@ -8,5 +8,5 @@ import (
 
 func TestSayHello(t *testing.T) {
 	greeting := SayHello("Valdir")
-	assert.Assert(greeting, "Hello, Valdir")
+	assert.Equal(t, greeting, "Hello Valdir")
 }
